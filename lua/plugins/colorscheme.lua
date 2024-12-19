@@ -11,9 +11,9 @@ return {
       },
       on_highlights = function(hl, c)
         hl.NormalFloat = { bg = c.bg_dark } -- Background normal float
-        hl.FloatBorder = { bg = c.bg_dark, fg = c.border } -- Border normal float
-        hl.Pmenu = { bg = c.bg_dark } -- Popup menu background
-        hl.PmenuSel = { bg = c.bg_highlight } -- Popup menu selection
+        -- hl.FloatBorder = { bg = c.bg_dark, fg = c.border } -- Border normal float
+        -- hl.Pmenu = { bg = c.bg_dark } -- Popup menu background
+        -- hl.PmenuSel = { bg = c.bg_highlight } -- Popup menu selection
       end,
     }
   end,
